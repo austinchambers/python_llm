@@ -1,6 +1,3 @@
-# Oculus-AR-Unity
-Simple demonstration project for augmented reality with the OvrVision stereo camera and the Oculus Rift. 
-
 # Python script to generate AI response for any of three providers: anthropic, openai, or mistral 
 
 # To set up development environment and run
@@ -20,6 +17,16 @@ Simple demonstration project for augmented reality with the OvrVision stereo cam
      * python python_llm.py --provider openai --model gpt-4
      * python python_llm.py --provider mistral --model mistral-large-latest
 
+# Example Anthropic Execution -- As an aside, Alan MacMasters is fictional, so this response is a point against Anthropic
+```
+PS C:\Users\austi\rep\PythonLLM>  python python_llm.py --provider anthropic
+Welcome to the Anthropic CLI Interface!
+Using model: claude-3-7-sonnet-20250219
+Type 'exit', 'quit', or Ctrl+C to exit.
+Type 'save <filename>' to save the conversation.
+Type 'clear' to clear the conversation history.
+------------------------------------------------
+```
 
 
 # Getting Started
