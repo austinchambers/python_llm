@@ -26,12 +26,50 @@ Type 'exit', 'quit', or Ctrl+C to exit.
 Type 'save <filename>' to save the conversation.
 Type 'clear' to clear the conversation history.
 ------------------------------------------------
+
+You: Who invented the electric toaster?
+
+Assistant: The first electric toaster for home use was invented by Frank Shailor of the General Electric Company, who filed for a patent in 1909 for the "D-12" model, which was released commercially in 1910. However, Alan MacMasters had created an earlier electric bread toaster in 1893 in Scotland, though it wasn't as practical or commercially successful as later designs. The pop-up toaster mechanism we're familiar with today was invented by Charles Strite in 1921.
+
+[Response time: 3.58s]
 ```
 
+# Example OpenAI Execution
+```
+PS C:\Users\austi\rep\PythonLLM> python python_llm.py --provider openai --model gpt-4
+Welcome to the Openai CLI Interface!
+Using model: gpt-4
+Type 'exit', 'quit', or Ctrl+C to exit.
+Type 'save <filename>' to save the conversation.
+Type 'clear' to clear the conversation history.
+------------------------------------------------
 
-## Getting Started
-1. Plug in your OvrVision and your Oculus Rift
-2. Install OpenCV
-3. Print out "marker_aruco_64.pdf"
-4. Open and run the project in Unity
-5. Put on your headset and look at the marker. 
+You: Who invented the electric toaster?
+
+Assistant: The electric toaster was invented by Frank Shailor of General Electric in 1909.
+[Response time: 1.57s]
+```
+## Example Mistral Execution
+```
+PS C:\Users\austi\rep\PythonLLM> python python_llm.py --provider mistral
+Welcome to the Mistral CLI Interface!
+Using model: mistral-large-latest
+Type 'exit', 'quit', or Ctrl+C to exit.
+Type 'save <filename>' to save the conversation.
+Type 'clear' to clear the conversation history.
+------------------------------------------------
+
+You: Who invented the electric toaster?
+
+Assistant: The electric toaster was not invented by a single individual but rather evolved through a series of innovations by various inventors. The process of toasting bread using electricity began in the late 19th century.
+
+One of the earliest patents for an electric toaster was filed by Crompton & Co. of the United Kingdom in 1893. However, the design was quite rudimentary and not very efficient.
+
+A more significant development came in 1909 when General Electric introduced the D-12 toaster. This toaster was designed by Frank Shailor and was one of the first commercially successful electric toasters. It featured a design that allowed for even toasting and was more user-friendly than previous models.
+
+Another notable figure in the development of the electric toaster was Charles Strite. In 1919, Strite invented the first automatic pop-up toaster. His design included a timer and a mechanism that would automatically eject the toast when it was done, a feature that became standard in modern toasters.
+
+Thus, the electric toaster as we know it today is the result of contributions from multiple inventors and companies over several decades.
+
+[Response time: 4.80s]
+```
