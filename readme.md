@@ -1,6 +1,6 @@
 # Python script to generate AI response for any of three providers: anthropic, openai, or mistral 
 
-# To set up development environment and run
+## To set up development environment and run
 1. Install Python and the required SDKs: 
      * pip install anthropic openai 
      * pip install mistralai==0.4.2
@@ -17,7 +17,7 @@
      * python python_llm.py --provider openai --model gpt-4
      * python python_llm.py --provider mistral --model mistral-large-latest
 
-# Example Anthropic Execution -- As an aside, Alan MacMasters is fictional, so this response is a point against Anthropic
+## Example Anthropic Execution -- As an aside, Alan MacMasters is fictional, so this response is a point against Anthropic
 ```
 PS C:\Users\austi\rep\PythonLLM>  python python_llm.py --provider anthropic
 Welcome to the Anthropic CLI Interface!
@@ -29,7 +29,7 @@ Type 'clear' to clear the conversation history.
 ```
 
 
-# Getting Started
+## Getting Started
 1. Plug in your OvrVision and your Oculus Rift
 2. Install OpenCV
 3. Print out "marker_aruco_64.pdf"
